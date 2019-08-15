@@ -60,3 +60,5 @@ if (x >= room_width - size) {
 } else if (x <= 0 + size) {
 	x = 0 + size;
 }
+
+depth = -1000;
