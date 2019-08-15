@@ -178,6 +178,20 @@
             "value": "0.5",
             "varName": "verticalAcceleration",
             "varType": 0
+        },
+        {
+            "id": "92b314c8-23a9-4048-b546-01bd684ee210",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "32",
+            "varName": "size",
+            "varType": 0
         }
     ],
     "solid": false,

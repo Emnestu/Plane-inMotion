@@ -48,3 +48,15 @@ if (!keyboard_check(vk_left) && !keyboard_check(vk_right)) {
 		horizontalSpeed = horizontalSpeed + slowDownKoeficienty;	
 	}
 }
+
+if (y >= room_height - size) {
+	y = room_height - size;
+} else if (y <= 0 + size) {
+	y = 0 + size;
+}
+
+if (x >= room_width - size) {
+	x = room_width - size;
+} else if (x <= 0 + size) {
+	x = 0 + size;
+}
