@@ -1,2 +1,2 @@
-/// @description Insert description here
-// You can write your code in this editor
+// Can be used to resize obstacles
+// image_xscale = 0.1
