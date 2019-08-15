@@ -119,7 +119,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0.4",
+            "value": "0.2",
             "varName": "slowDownKoeficienty",
             "varType": 0
         },
@@ -133,7 +133,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "5",
+            "value": "8",
             "varName": "maximumHorizontalSpeed",
             "varType": 0
         },
@@ -147,7 +147,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "4",
+            "value": "5",
             "varName": "maximumVerticalSpeed",
             "varType": 0
         },
@@ -161,7 +161,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "2",
+            "value": "0.8",
             "varName": "horizontalAcceleration",
             "varType": 0
         },
@@ -175,7 +175,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1",
+            "value": "0.5",
             "varName": "verticalAcceleration",
             "varType": 0
         }
