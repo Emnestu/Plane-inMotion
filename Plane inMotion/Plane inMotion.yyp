@@ -263,6 +263,14 @@
             }
         },
         {
+            "Key": "aa10b52d-a93e-4cb5-a42b-519c96e62dc8",
+            "Value": {
+                "id": "2c266022-5b1c-4cc5-ac97-1b91ab638e4d",
+                "resourcePath": "sprites\\spr_ukraine\\spr_ukraine.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bfcf6910-ff06-45e0-8512-2f8e6303d3c5",
             "Value": {
                 "id": "013f114a-70a9-457e-aa89-c0ed5cd450eb",

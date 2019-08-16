@@ -1,28 +1,17 @@
-bgArray = [spr_rio, spr_poland];
+bgArray = [spr_rio, spr_poland, spr_ukraine];
 
-bgName = "bg" + string(bgCounter);
-layer_create(1000, bgName);
-layer_background_create(bgName, bgArray[nextBGArrayIndex]);
-layer_x(bgName, 0);
-layer_hspeed(bgName, bgMoveSpeed);
+layer_hspeed("Background", bgMoveSpeed);
+layer_sprite_create("Background", bgDistance * bgCounter, 0, bgArray[nextBGArrayIndex]);
 
 bgCounter = bgCounter + 1;
 nextBGArrayIndex = bgCounter % array_length_1d(bgArray);
 
-bgName = "bg" + string(bgCounter);
-layer_create(1000, bgName);
-layer_background_create(bgName, bgArray[nextBGArrayIndex]);
-layer_x(bgName, bgDistance);
-layer_hspeed(bgName, bgMoveSpeed);
+layer_sprite_create("Background", bgDistance * bgCounter, 0, bgArray[nextBGArrayIndex]);
 
 bgCounter = bgCounter + 1;
 nextBGArrayIndex = bgCounter % array_length_1d(bgArray);
 
-bgName = "bg" + string(bgCounter);
-layer_create(1000, bgName);
-layer_background_create(bgName, bgArray[nextBGArrayIndex]);
-layer_x(bgName, bgDistance * 2);
-layer_hspeed(bgName, bgMoveSpeed);
+layer_sprite_create("Background", bgDistance * bgCounter, 0, bgArray[nextBGArrayIndex]);
 
 bgCounter = bgCounter + 1;
 nextBGArrayIndex = bgCounter % array_length_1d(bgArray);

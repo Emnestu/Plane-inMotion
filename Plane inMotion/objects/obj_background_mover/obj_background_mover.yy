@@ -90,7 +90,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "-4",
+            "value": "-2",
             "varName": "bgMoveSpeed",
             "varType": 0
         },
@@ -118,7 +118,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "830",
+            "value": "1900",
             "varName": "bgDistance",
             "varType": 0
         },
