@@ -43,6 +43,36 @@
             "enumb": 0,
             "eventtype": 8,
             "m_owner": "0f65ddce-44e8-4ce4-9d57-3b2ef6e758f7"
+        },
+        {
+            "id": "46306a38-cda2-4ebe-bfab-dc345520d1a0",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 10,
+            "eventtype": 7,
+            "m_owner": "0f65ddce-44e8-4ce4-9d57-3b2ef6e758f7"
+        },
+        {
+            "id": "11047d32-8c8b-4776-9b92-2d288f7763cf",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 2,
+            "eventtype": 2,
+            "m_owner": "0f65ddce-44e8-4ce4-9d57-3b2ef6e758f7"
+        },
+        {
+            "id": "3096e4fb-93a0-4291-8a7e-e52b01a4354c",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 4,
+            "eventtype": 7,
+            "m_owner": "0f65ddce-44e8-4ce4-9d57-3b2ef6e758f7"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -89,6 +119,20 @@
             "value": "60",
             "varName": "scoreTick",
             "varType": 0
+        },
+        {
+            "id": "760d155b-9b89-4173-ac1e-6f76a3bb64c0",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "gameEnded",
+            "varType": 3
         }
     ],
     "solid": false,
