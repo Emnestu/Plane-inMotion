@@ -6,5 +6,6 @@ instance_create_layer(0, 0, "EnemyLayer", obj_spawner);
 instance_create_layer(0, 0, "EnemyLayer", obj_spawner);
 instance_create_layer(0, 0, "EnemyLayer", obj_spawner);
 
-
+// Alex
 instance_create_layer(0, 0, "CloudLayer", obj_cloudSpawner);
+
